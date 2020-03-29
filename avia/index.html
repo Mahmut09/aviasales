@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ависалес</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<h1>Авиасалес</h1>
+	<main>
+
+		<section class="wrapper">
+			<form class="form-search">
+				<div class="wrapper_search">
+					<div class="input" style="display: block;">
+						<label>Откуда
+							<input type="text" class="input_cities-from" required>
+						</label>
+						<ul class="dropdown dropdown_cities-from">
+
+						</ul>
+					</div>
+
+					<div class="input">
+						<label>Куда
+							<input type="text" class="input_cities-to" required>
+						</label>
+						<ul class="dropdown dropdown_cities-to">
+
+						</ul>
+					</div>
+
+					<div class="input input_cities-from">
+						<label>Отправление
+							<input type="date" class="input_date-depart" required>
+						</label>
+					</div>
+				</div>
+
+				<div class="wrapper_button">
+					<button type="submit" class="button button_search">
+						<span class="button_search-text">Найти билеты</span>
+					</button>
+				</div>
+			</form>
+		</section>
+		<section class="wrapper">
+
+			<section class="wrapper_ticket" id="cheapest-ticket" style="display: none;">
+				<h2>Самый дешевый билет на выбранную дату</h2>
+				
+			</section>
+
+			<section class="block_ticket" id="other-cheap-tickets" style="display: none;">
+				<h2>Самые дешевые билеты на другие даты</h2>
+			</section> 
+
+		</section>
+
+
+	</main>
+	<script src="script/script.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- <h3 class="agent">Aviakassa</h3>
+<div class="ticket_wrapper">
+	<div class="left-side">
+		<a href="https://www.aviasales.ru/search/SVX2905KGD1" class="button button_buy">Купить
+			за 19700₽</a>
+	</div>
+	<div class="right-side">
+		<div class="block-left">
+			<div class="city_from">Вылет из города
+				<span class="city_name">Екатеринбург</span>
+			</div>
+			<div class="date">29 мая 2020 г.</div>
+		</div>
+
+		<div class="block-right">
+			<div class="changes">Без пересадок</div>
+			<div class="city_to">Город назначения:
+				<span class="city_name">Калининград</span>
+			</div>
+		</div>
+	</div>
+</div> -->
